@@ -76,7 +76,7 @@ fun TodoScreen() {
             }
             Spacer(Modifier.height(16.dp))
             if (tasks.isEmpty()) {
-                Text("No tasks yet", style = MaterialTheme.typography.bodyLarge)
+                Text("No tasks yet. Add one above.", style = MaterialTheme.typography.bodyLarge)
             } else {
                 LazyColumn(modifier = Modifier.fillMaxWidth()) {
                     items(tasks, key = { it.id }) { task ->
