@@ -1,0 +1,3 @@
+Open the Pocket Todo app.
+assert: the "To-do" screen is shown with "0 tasks left"
+assert: the "New task" field, the "Add" button, and "No tasks yet" are visible
